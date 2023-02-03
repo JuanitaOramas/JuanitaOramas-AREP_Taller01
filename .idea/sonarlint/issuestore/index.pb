@@ -5,3 +5,19 @@ Y
 )src/main/java/edu/eci/arep/URLReader.java,9\1\91b763cd5edaca3214df2c537823da4f9ffa7475
 c
 3src/main/java/edu/eci/arep/URLReaderWithHeader.java,7\a\7a3ef3401c207f92b26bfd800efb4c76d5bd5289
+X
+(src/test/java/edu/eci/arep/HttpTest.java,e\0\e09369a920eef25d040bb01846064df772454d56
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+W
+'src/test/java/edu/eci/arep/AppTest.java,1\0\10e7ee97550fb7a730e579f117621a59479961d6
+Z
+*src/main/java/edu/eci/arep/HttpServer.java,9\e\9e713ee38c6e80a56abc40f0130b4bf183e5935c
+Z
+*src/main/java/edu/eci/arep/HttpClient.java,9\a\9a024613b9b3fad54064ce755c65d3e4152bff04
+U
+%src/main/java/edu/eci/arep/Cache.java,7\e\7e08c0d8e30ad90fcf0d32db5e89cee7bff20619
+T
+$src/main/java/edu/eci/arep/Main.java,1\d\1de8b81a3f5736e216f88d589be9811766e623eb
+]
+-src/main/java/edu/eci/arep/HttpConection.java,3\4\34593f8bd1b558be79910bb9e7d5fc6cf88091db

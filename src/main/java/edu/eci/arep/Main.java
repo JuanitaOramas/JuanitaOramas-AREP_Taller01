@@ -2,14 +2,14 @@ package edu.eci.arep;
 
 
 
-import java.net.MalformedURLException;
+
 import java.net.URL;
 import java.io.*;
-import java.net.*;
+
 
 
 public class Main {
-    public static void main(String[] args) throws MalformedURLException {
+    public static void main(String[] args)  {
         try {
             URL personalSite = new URL("http://www.google.com/");
             System.out.println("Protocol: " + personalSite.getProtocol());

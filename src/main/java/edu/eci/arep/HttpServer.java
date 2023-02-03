@@ -2,6 +2,8 @@ package edu.eci.arep;
 
 
 
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,6 +13,13 @@ import java.net.Socket;
 import java.net.URL;
 
 public class HttpServer {
+
+    /**
+     * Método main, inicia un socket recibe la petición get y agrega el nombre t de la película a la URL de la API
+     * @param args
+     * @throws IOException
+     */
+
     public static void main(String[] args) throws IOException {
         boolean running = true;
         ServerSocket serverSocket = null;
@@ -63,7 +72,7 @@ public class HttpServer {
             System.out.println(cacheData);
             outputLine = "HTTP/1.1 200 OK\r\n"   + "\r\n" + htmlWithForms(cacheData); // jsonSimple
 
-//            outputLine= jsonSimple(cacheData);
+
             out.println(outputLine);
 
             out.close();
@@ -75,27 +84,6 @@ public class HttpServer {
         serverSocket.close();
 
     }
-
-
-
-    private static String get(String p) {
-        return p;
-    }
-
-    // devolver JSON
-    public static String jsonSimple(String cacheData){
-        return "HTTP/1.1 200 OK\r\n"+ "Content-Type: text/json\r\n "  + cacheData;
-    }
-
-
-//    public static String htmlSimple(){
-//        return "<!DOCTYPE html>"  + "<html>" + "<head>" + "<meta charset=\"UTF-8\">"
-//                + "<title>Title of the document</title>\n"
-//                + "</head>"
-//                + "<body>"
-//                + "My Web Site"
-//                + "</body>" + "</html>";
-//    }
 
 
     public static String htmlWithForms(String cacheData){

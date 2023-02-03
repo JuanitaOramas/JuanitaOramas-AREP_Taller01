@@ -1,0 +1,12 @@
+
+_
+java:S2095 "JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(âﬂÂ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ú˚øÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÚÛ◊§
+>
+java:S16592"(Declare "outputLine" on a separate line.(Ï·‚¡
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(À–Ò‰
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(ÃΩÊ©
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(É∞è–
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(⁄∞Ú›

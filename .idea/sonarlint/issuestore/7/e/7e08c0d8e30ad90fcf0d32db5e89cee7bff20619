@@ -1,0 +1,35 @@
+
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Α…βλύÿÿÿÿ
+l
+java:S1104
+"QMake cache a static final constant or non-public and provide accessors if needed.(Α…βλύÿÿÿÿ
+M
+java:S1444
+"+Make this "public static cache" field final(Α…βλύÿÿÿÿ8‹ςΫα0
+/
+java:S1700
+"Rename field "cache"(Α…βλύÿÿÿÿ
+?
+java:S2386
+"Make this member "protected".(Α…βλύÿÿÿÿ8“ςΫα0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ªΜζ8”ςΫα0
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Α…βλύÿÿÿÿ
+l
+java:S1104
+"QMake cache a static final constant or non-public and provide accessors if needed.(Α…βλύÿÿÿÿ
+F
+java:S1444
+"+Make this "public static cache" field final(Α…βλύÿÿÿÿ
+/
+java:S1700
+"Rename field "cache"(Α…βλύÿÿÿÿ
+8
+java:S2386
+"Make this member "protected".(Α…βλύÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ªΜζ

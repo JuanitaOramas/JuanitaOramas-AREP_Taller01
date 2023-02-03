@@ -9,6 +9,10 @@ import java.net.URL;
 public class HttpConection {
     private static final String USER_AGENT = "Chrome";
 
+    /** Metodo que obtiene la informacion de la pelicula
+     * @param q
+     */
+
     public static String HttpConectionExample(String q) throws IOException {
 
         String GET_URL = "http://www.omdbapi.com/?apikey=628586c8&" + q;
@@ -18,7 +22,6 @@ public class HttpConection {
         con.setRequestMethod("GET");
         con.setRequestProperty("User-Agent", USER_AGENT);
 
-
         int responseCode = con.getResponseCode();
         System.out.println("GET Response Code :: " + responseCode);
 
@@ -27,13 +30,9 @@ public class HttpConection {
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
             String inputLine;
             StringBuffer response = new StringBuffer();
-
             while ((inputLine = in.readLine()) != null) {
-                response.append(inputLine);
-            }
+                response.append(inputLine);}
             in.close();
-
-
             System.out.println(response.toString());
             return response.toString();
 
