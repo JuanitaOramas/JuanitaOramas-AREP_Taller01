@@ -1,0 +1,11 @@
+
+U
+java:S1854(":Remove this useless assignment to local variable "reader".(Ñ¾µøÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(‚ş¨íüÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(¸¯ô¹ûÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Ïä´ øÿÿÿÿ
+F
+java:S1481("+Remove this unused "reader" local variable.(Ñ¾µøÿÿÿÿ
+T
+java:S1135)"2Complete the task associated to this TODO comment.(¿»ºàøÿÿÿÿ8§®úà0
